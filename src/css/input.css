@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family: "NasalizationW05 ExtraLight";
+         src: url("//db.onlinewebfonts.com/t/6d0deb5b05d75d77cc1e0da849c511ff.eot"); 
+         src: url("//db.onlinewebfonts.com/t/6d0deb5b05d75d77cc1e0da849c511ff.eot?#iefix") format("embedded-opentype"), 
+         url("//db.onlinewebfonts.com/t/6d0deb5b05d75d77cc1e0da849c511ff.woff2") format("woff2"), 
+         url("//db.onlinewebfonts.com/t/6d0deb5b05d75d77cc1e0da849c511ff.woff") format("woff"), 
+         url("//db.onlinewebfonts.com/t/6d0deb5b05d75d77cc1e0da849c511ff.ttf") format("truetype"), 
+         url("//db.onlinewebfonts.com/t/6d0deb5b05d75d77cc1e0da849c511ff.svg#NasalizationW05-ExtraLight") format("svg"); 
+        }
+  }
+
+
+  .container{
+    @apply max-w-[1400px] px-4 mx-auto ;
+}
+
+
+.menu-effect-custom{
+    position: relative;
+}
+.menu-effect-custom:after{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    z-index: -1;
+    width: 0px;
+    height: 100%;
+    transition: 0.5s;
+    border-bottom: 2px solid white;
+}
+
+
+.menu-effect-custom:hover:after, .menu-effect-custom:hover{
+    width: 100%;
+}
