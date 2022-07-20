@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star system alpha 0.9.3</title>
+    <link rel="shortcut icon" href="favico.svg">
+    <link rel="stylesheet" href="css/solar.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- 
+  <div id="load"  class="w-full h-screen">
+    
+    <div class="fixed top-0 left-0 bg-[#292A2D] w-full h-screen
+    flex justify-center items-center z-50">
+        <div class="text-white text-3xl">loading...</div>
+    </div>
+    <script>
+        window.onload = () => {
+            document.getElementById('load').style.cssText = `display: none`;
+        }
+    </script>
+
+
+</div> -->
+
+
+<header class="scroll_is_true absolute left-0 z-30
+        flex justify-between items-center text-[12px]
+        whitespace-nowrap container " style="top: 15px; left: 50%; transform: translate(-50%, 0);">
+            <div class="min-w-[40px] max-w-[40px]">
+                <a href="#">
+                    <svg width="100%" height="100%" viewBox="0 0 18 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.76001 0.399994H16.98V11H11.82V7.53999H5.94001V11H0.76001V0.399994ZM12.22 7.13999V10.58H16.56V0.819994H1.20001V10.58H5.52001V7.13999H12.22ZM5.52001 3.15999H12.22V4.73999H5.52001V3.15999ZM5.94001 3.57999V4.31999H11.82V3.57999H5.94001Z" fill="#E89CD5FF"/>
+                        <path d="M0.78001 29V18.4H17.06V25.54H6.32001V22.32H11.9V21.58H5.94001V29H0.78001ZM12.3 22.74H6.74001V25.14H16.62V18.82H1.20001V28.58H5.52001V21.16H12.3V22.74Z" fill="#E89CD5FF"/>
+                        </svg>
+                        
+                </a>
+            </div>
+
+            <menu class="mx-2 lg:hidden">
+                <nav>
+                    <ul class="uppercase text-white 
+                    flex justify-between ">                              
+                        <li class=" menu-effect-custom mr-6 pointer-events-auto"> <a href="#">Worlds avatars</a> </li>
+                        <li class=" menu-effect-custom mr-6 pointer-events-auto"> <a href="#">Fashion</a> </li>
+                        <li class=" menu-effect-custom mr-6 pointer-events-auto"> <a href="#">Develop</a> </li>
+                        <li class=" menu-effect-custom pointer-events-auto"> <a href="#">Contact</a> </li>
+                    </ul>
+                </nav>
+            </menu>
+            <div class="text-white cursor-pointer hidden lg:block "> 
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>  
+              </div>
+            
+            <div class=" w-[695px] mx-2 lg:hidden" style="border-top: 0.3px solid #FFFFFF;"></div>
+
+            <div class="uppercase text-white flex justify-between mx-1
+            lg:hidden"> 
+                <div class="mr-4 pointer-events-auto transition-all hover:text-[#E89CD5FF]">
+                    <a href="#">Sign Up</a> </div>
+                <div> 
+                    <a href="#" class="px-4 py-2.5 transition-all border border-[#E89CD5FF] rounded-full
+                    hover:bg-[#E89CD5FF] hover:text-black ">
+                        Sign In</a> </div> 
+            </div>
+
+</header>
+
+
+
+
+
+
+
+
+<div id="hideAfterClick" class="fixed text-white bottom-[10vh] left-[5vw] max-w-[320px] mx-2 pointer-events-none">
+
+    <h1 class="mb-4 text-3xl font-['NasalizationW05_ExtraLight']">connect</h1>
+    <p>
+        Lorem ipsum dolor sit amet, 
+        consectetuer adipiscing elit, 
+        sed diam nonummy nibh euismod tincidunt ut 
+        laoreet dolore magna aliquam erat volutpat.
+     </p>
+
+</div>
+
+
+
+<canvas id="maincanvas"></canvas>
+
+
+  <script  src="bundle.js"></script>
+
+</body>
+</html>

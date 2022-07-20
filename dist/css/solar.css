@@ -1,0 +1,72 @@
+:root{
+    --main-color: #E89CD5FF;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html, body{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+
+#maincanvas{
+    width: 100%;
+    height: 100%;
+}
+
+
+@keyframes border {
+    0% {
+        border-radius: 0%;
+        border-top: 0;
+        width: 280px;
+        height: 280px;
+        border-bottom: 0;
+ 
+    }
+    100% {border-radius: 50%; }
+  }
+
+
+
+
+
+.label{
+    font-family: "NasalizationW05 ExtraLight";
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+.starLink{
+    font-family: "NasalizationW05 ExtraLight";
+    pointer-events: auto;
+    border: 3px solid var(--main-color);
+    animation-duration: 0.3s;
+    animation-name: border;
+    border-radius: 50%;
+}
+.starLink-beta{
+    font-family: "NasalizationW05 ExtraLight";
+    pointer-events: auto;
+    border: 2px solid grey;
+    animation-duration: 0.3s;
+    animation-name: border;
+    border-radius: 50%;
+}
+/* .starLink:hover{
+    border: 1px solid var(--main-color);
+    border-radius: 50%;
+} */
